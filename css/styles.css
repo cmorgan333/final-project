@@ -18,3 +18,37 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+@font-face {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  src: url(fonts/GillSans.ttf);
+}
+@font-face {
+  font-family: "PTSerif-Bold.ttf";
+  src: url(fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: "PTSerif-BoldItalic.ttf";
+  src: url(fonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "PTSerif-Italic.ttf";
+  src: url(fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: "PTSerif-Regular.ttf";
+  src: url(font/PTSerif-Regular.ttf);
+}
+.hero {
+  width: 100%;
+  height: 500px;
+  background-image: rgba(255, 209, 64, 0.7), url(../assets/images/home-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero nav {
+  width: 980px;
+  height: 65px;
+  background-color: plum;
+}
