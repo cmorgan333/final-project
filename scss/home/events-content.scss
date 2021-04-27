@@ -1,0 +1,75 @@
+.events-content {
+  width: 100%;
+  min-height: 320px;
+  background-color: $purple;
+  padding-top: 40px;
+  //   display: flex;
+
+  h1 {
+    width: 392px;
+    height: 37px;
+    border-bottom: $white solid 2px;
+    font-family: $font-one;
+    font-size: 25px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .events {
+    min-height: 135px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 72px;
+
+    .date {
+      max-width: 300px;
+      min-height: 125px;
+      display: flex;
+      justify-content: space-between;
+
+      .date-image {
+        width: 60px;
+        height: 60px;
+        background-color: seagreen;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .event-text {
+        max-width: 140px;
+        min-height: 125px;
+        margin-left: 15px;
+
+        p {
+          font-family: $font-one;
+          font-size: 15px;
+          color: $white;
+        }
+        .pink-text {
+          font-size: 13px;
+          color: $pink;
+        }
+      }
+    }
+    .jun06 {
+      background-image: url(../assets/dates/june06.png);
+    }
+    .jul30 {
+      background-image: url(../assets/dates/jul30.png);
+    }
+    .aug30 {
+      background-image: url(../assets/dates/aug30.png);
+    }
+    .nov23 {
+      background-image: url(../assets/dates/nov23.png);
+    }
+    .dec23 {
+      background-image: url(../assets/dates/dec23.png);
+    }
+  }
+}

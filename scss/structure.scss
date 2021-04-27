@@ -22,26 +22,32 @@ p {
 // ==========FONTS============//
 
 @font-face {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill";
+  font-style: "italic";
   src: url(fonts/GillSans.ttf);
 }
 
 @font-face {
-  font-family: "PTSerif-Bold.ttf";
+  font-family: "GillSans Italic";
+  src: url(fonts/GillSans.ttc);
+}
+
+@font-face {
+  font-family: "PTBold";
   src: url(fonts/PTSerif-Bold.ttf);
 }
 
 @font-face {
-  font-family: "PTSerif-BoldItalic.ttf";
+  font-family: "PTBoldItalic";
   src: url(fonts/PTSerif-BoldItalic.ttf);
 }
 
 @font-face {
-  font-family: "PTSerif-Italic.ttf";
+  font-family: "PTItalic";
   src: url(fonts/PTSerif-Italic.ttf);
 }
 
 @font-face {
-  font-family: "PTSerif-Regular.ttf";
+  font-family: "PTRegular";
   src: url(font/PTSerif-Regular.ttf);
 }

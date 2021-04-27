@@ -2,8 +2,14 @@
 @import "mixins.scss";
 @import "structure.scss";
 
-// =========HOME=============//
+// =========NAV=============//
 
 @import "nav.scss";
-@import "hero-content.scss";
-@import "home.scss";
+
+// ==========HOME=============//
+@import "home/hero-content.scss";
+@import "home/home-content.scss";
+@import "home/events-content.scss";
+
+// ===========FOOTER==========//
+@import "footer.scss";

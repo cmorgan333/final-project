@@ -20,23 +20,28 @@ p {
 }
 
 @font-face {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill";
+  font-style: "italic";
   src: url(fonts/GillSans.ttf);
 }
 @font-face {
-  font-family: "PTSerif-Bold.ttf";
+  font-family: "GillSans Italic";
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: "PTBold";
   src: url(fonts/PTSerif-Bold.ttf);
 }
 @font-face {
-  font-family: "PTSerif-BoldItalic.ttf";
+  font-family: "PTBoldItalic";
   src: url(fonts/PTSerif-BoldItalic.ttf);
 }
 @font-face {
-  font-family: "PTSerif-Italic.ttf";
+  font-family: "PTItalic";
   src: url(fonts/PTSerif-Italic.ttf);
 }
 @font-face {
-  font-family: "PTSerif-Regular.ttf";
+  font-family: "PTRegular";
   src: url(font/PTSerif-Regular.ttf);
 }
 .hero {
@@ -85,7 +90,137 @@ p {
 .hero-content {
   max-width: 420px;
   height: 220px;
-  background-color: seagreen;
   margin: 0 auto;
   margin-top: 64px;
+  text-align: center;
+}
+.hero-content h1 {
+  font-family: PTRegular;
+  letter-spacing: 0.52;
+  font-size: 40px;
+  color: white;
+}
+.hero-content p {
+  font-family: Gill;
+  font-style: italic;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 50px;
+}
+.hero-content .pink {
+  font-family: Gill;
+  font-style: italic;
+  font-size: 20px;
+  color: #ee4367;
+  margin-bottom: 50px;
+}
+.hero-content button {
+  width: 122px;
+  height: 40px;
+  background-color: #ee4367;
+  border: none;
+  font-family: Gill;
+  font-size: 15px;
+  color: white;
+}
+
+.home-content {
+  max-width: 789px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.home-content .quote {
+  min-height: 300px;
+}
+.home-content .quote .quote-text {
+  min-height: 90px;
+  font-family: Gill;
+  font-size: 15px;
+  font-style: italic;
+  color: #ffd140;
+  margin: 0 auto;
+  margin-top: 77px;
+  line-height: 22px;
+}
+.home-content .quote .name {
+  font-family: PTRegular;
+  font-style: normal;
+  font-size: 15px;
+  color: #ee4367;
+  margin-top: 20px;
+}
+.home-content .quote .title {
+  font-family: PTRegular;
+  font-style: normal;
+  font-size: 10px;
+  color: #a8a8a8;
+}
+
+.events-content {
+  width: 100%;
+  min-height: 320px;
+  background-color: #540d6e;
+  padding-top: 40px;
+}
+.events-content h1 {
+  width: 392px;
+  height: 37px;
+  border-bottom: white solid 2px;
+  font-family: Gill;
+  font-size: 25px;
+  color: white;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.events-content .events {
+  min-height: 135px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 72px;
+}
+.events-content .events .date {
+  max-width: 300px;
+  min-height: 125px;
+  display: flex;
+  justify-content: space-between;
+}
+.events-content .events .date .date-image {
+  width: 60px;
+  height: 60px;
+  background-color: seagreen;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.events-content .events .date .event-text {
+  max-width: 140px;
+  min-height: 125px;
+  margin-left: 15px;
+}
+.events-content .events .date .event-text p {
+  font-family: Gill;
+  font-size: 15px;
+  color: white;
+}
+.events-content .events .date .event-text .pink-text {
+  font-size: 13px;
+  color: #ee4367;
+}
+.events-content .events .jun06 {
+  background-image: url(../assets/dates/june06.png);
+}
+.events-content .events .jul30 {
+  background-image: url(../assets/dates/jul30.png);
+}
+.events-content .events .aug30 {
+  background-image: url(../assets/dates/aug30.png);
+}
+.events-content .events .nov23 {
+  background-image: url(../assets/dates/nov23.png);
+}
+.events-content .events .dec23 {
+  background-image: url(../assets/dates/dec23.png);
 }

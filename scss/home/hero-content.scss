@@ -1,0 +1,40 @@
+.hero-content {
+  max-width: 420px;
+  height: 220px;
+  margin: 0 auto;
+  margin-top: 64px;
+  text-align: center;
+
+  h1 {
+    font-family: $font-five;
+    letter-spacing: 0.52;
+    font-size: 40px;
+    color: $white;
+  }
+
+  p {
+    font-family: $font-one;
+    font-style: italic;
+    font-size: 20px;
+    color: $white;
+    margin-bottom: 50px;
+  }
+
+  .pink {
+    font-family: $font-one;
+    font-style: italic;
+    font-size: 20px;
+    color: #ee4367;
+    margin-bottom: 50px;
+  }
+
+  button {
+    width: 122px;
+    height: 40px;
+    background-color: $pink;
+    border: none;
+    font-family: $font-one;
+    font-size: 15px;
+    color: $white;
+  }
+}

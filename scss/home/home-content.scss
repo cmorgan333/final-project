@@ -1,0 +1,35 @@
+.home-content {
+  max-width: 789px;
+  min-height: 200px;
+  margin: 0 auto;
+
+  .quote {
+    min-height: 300px;
+
+    .quote-text {
+      min-height: 90px;
+      font-family: $font-one;
+      font-size: 15px;
+      font-style: italic;
+      color: $yellow;
+      margin: 0 auto;
+      margin-top: 77px;
+      line-height: 22px;
+    }
+
+    .name {
+      font-family: $font-five;
+      font-style: normal;
+      font-size: 15px;
+      color: $pink;
+      margin-top: 20px;
+    }
+
+    .title {
+      font-family: $font-five;
+      font-style: normal;
+      font-size: 10px;
+      color: #a8a8a8;
+    }
+  }
+}
