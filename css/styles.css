@@ -224,3 +224,88 @@ p {
 .events-content .events .dec23 {
   background-image: url(../assets/dates/dec23.png);
 }
+
+footer {
+  width: 100%;
+  min-height: 455px;
+  background-color: #ee4367;
+  padding-top: 30px;
+}
+footer .footer-content {
+  min-height: 396px;
+  max-width: 696px;
+  margin: 0 auto;
+  display: block;
+}
+footer .footer-content .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../assets/logo/logo-white.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+footer .footer-content .address {
+  width: 250px;
+  height: 75px;
+  font-family: Gill;
+  font-size: 16px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 10px;
+  margin-top: 46px;
+}
+footer .footer-content .container {
+  max-width: 696px;
+  height: 60px;
+  display: flex;
+  margin-top: 46px;
+}
+footer .footer-content .container input {
+  width: 529px;
+  height: 60px;
+  background-color: #f56b88;
+  border: none;
+}
+footer .footer-content .container ::placeholder {
+  font-family: Gill;
+  font-size: 16px;
+  color: white;
+  padding-left: 10px;
+  opacity: 0.5;
+}
+footer .footer-content .container .subscribe {
+  width: 167px;
+  height: 60px;
+  background-color: white;
+  font-family: Gill;
+  font-size: 16px;
+  color: #ee4367;
+  border: none;
+}
+footer .footer-content .socials {
+  width: 156px;
+  height: 41px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+footer .footer-content .socials .icon {
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer .footer-content .socials .fbook {
+  background-image: url(../assets/social-media/facebook.png);
+}
+footer .footer-content .socials .insta {
+  background-image: url(../assets/social-media/insta.png);
+}
+footer .footer-content .socials .twitter {
+  background-image: url(../assets/social-media/twitter.png);
+}
