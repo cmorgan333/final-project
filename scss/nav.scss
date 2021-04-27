@@ -1,7 +1,11 @@
 .hero {
   width: 100%;
   height: 500px;
-  background-image: linear-gradient(to$overlay),
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 209, 64, 0.8),
+      rgba(255, 209, 64, 0.8)
+    ),
     url(../assets/images/home-hero.jpg);
   background-size: cover;
   background-position: center;
@@ -9,7 +13,40 @@
 
   nav {
     width: 980px;
-    height: 65px;
-    background-color: plum;
+    height: 75px;
+    border-bottom: $white solid 2px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 15px;
+
+    .logo {
+      width: 92px;
+      height: 42px;
+      background-image: url(../assets/logo/logo-white.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .links {
+      width: 389px;
+      height: 30px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 23px;
+
+      a {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        color: $white;
+      }
+      span {
+        color: #ee4367;
+      }
+    }
   }
 }
