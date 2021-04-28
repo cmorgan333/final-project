@@ -6,10 +6,19 @@
 
 @import "nav.scss";
 
+// =========Black Nav=========//
+@import "black-nav.scss";
+
 // ==========HOME=============//
 @import "home/hero-content.scss";
 @import "home/home-content.scss";
 @import "home/events-content.scss";
+// =========ABOUT CONTENT=========//
+@import "about/about-content.scss";
+// ===========GALLERY============//
+@import "gallery/gallery-content.scss";
+@import "gallery/foodfest.scss";
+@import "gallery/deejay.scss";
 
 // ===========FOOTER==========//
 @import "footer.scss";

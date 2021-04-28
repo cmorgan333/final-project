@@ -1,0 +1,33 @@
+.about-image {
+  max-width: 980px;
+  height: 378.75px;
+  background-image: linear-gradient(to right, $overlayyellow, $overlayyellow),
+    url(../assets/images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 85.5px;
+  display: flex;
+
+  h1 {
+    width: 229px;
+    height: 40px;
+    font-family: $font-one;
+    font-size: 25px;
+    border-bottom: $black solid 2px;
+    margin-top: 354px;
+  }
+}
+
+.about-content {
+  max-width: 980px;
+  min-height: 96px;
+  font-family: $font-one;
+  font-style: italic;
+  opacity: 0.5;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-top: 36.5px;
+  margin-bottom: 95px;
+}

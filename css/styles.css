@@ -78,12 +78,47 @@ p {
   padding-top: 23px;
 }
 .hero nav .links a {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Gill;
   font-size: 15px;
   text-decoration: none;
   color: white;
 }
 .hero nav .links span {
+  color: #ee4367;
+}
+
+.black {
+  width: 980px;
+  height: 75px;
+  border-bottom: black solid 2px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.black .black-logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../assets/logo/logo-black.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.black .links {
+  width: 389px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 23px;
+}
+.black .links a {
+  font-family: Gill;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+.black .links span {
   color: #ee4367;
 }
 
@@ -225,6 +260,151 @@ p {
   background-image: url(../assets/dates/dec23.png);
 }
 
+.about-image {
+  max-width: 980px;
+  height: 378.75px;
+  background-image: linear-gradient(to right, rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../assets/images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 85.5px;
+  display: flex;
+}
+.about-image h1 {
+  width: 229px;
+  height: 40px;
+  font-family: Gill;
+  font-size: 25px;
+  border-bottom: black solid 2px;
+  margin-top: 354px;
+}
+
+.about-content {
+  max-width: 980px;
+  min-height: 96px;
+  font-family: Gill;
+  font-style: italic;
+  opacity: 0.5;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-top: 36.5px;
+  margin-bottom: 95px;
+}
+
+.gallery-content {
+  max-width: 980px;
+  height: 582px;
+  margin: 0 auto;
+  margin-top: 86px;
+  margin-bottom: 60px;
+}
+.gallery-content h1 {
+  height: 35px;
+  width: 229px;
+  border-bottom: black solid 2px;
+  font-family: Gill;
+  font-size: 25px;
+  color: black;
+}
+.gallery-content .gallery-wrapper {
+  max-width: 980px;
+  height: 513px;
+}
+.gallery-content .gallery-wrapper .row-one {
+  height: 187px;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery-content .gallery-wrapper .row-one .image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery-content .gallery-wrapper .row-one .one {
+  width: 489px;
+  height: 187px;
+  background-image: linear-gradient(to right, rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../assets/gallery/1.png);
+}
+.gallery-content .gallery-wrapper .row-one .two {
+  width: 187px;
+  height: 187px;
+  background-image: linear-gradient(to right, rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url(../assets/gallery/2.jpeg);
+}
+.gallery-content .gallery-wrapper .row-one .three {
+  width: 265px;
+  height: 187px;
+  background-image: linear-gradient(to right, rgba(8, 173, 105, 0.7), rgba(8, 173, 105, 0.7)), url(../assets/gallery/3.jpg);
+}
+.gallery-content .gallery-wrapper .row-two {
+  height: 306px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery-content .gallery-wrapper .row-two .image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery-content .gallery-wrapper .row-two .four {
+  width: 603px;
+  height: 306px;
+  background-image: linear-gradient(to right, rgba(84, 13, 110, 0.7), rgba(84, 13, 110, 0.7)), url(../assets/gallery/4.jpg);
+}
+.gallery-content .gallery-wrapper .row-two .five {
+  width: 355px;
+  height: 306px;
+  background-image: linear-gradient(to right, rgba(59, 206, 171, 0.7), rgba(59, 206, 171, 0.7)), url(../assets/gallery/5.png);
+}
+
+.foodfest-content .foodfest-image {
+  max-width: 980px;
+  margin: 50.5px auto 0 auto;
+  height: 400.5px;
+  background-image: linear-gradient(to right, rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../assets/gallery/1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.foodfest-content .foodfest-image h1 {
+  font-family: Gill;
+  font-size: 300px;
+  color: #ffd140;
+  margin-top: 120px;
+  text-shadow: 5px 5px 6px #00000029;
+}
+.foodfest-content .foodfest-image h2 {
+  font-family: Gill;
+  font-size: 140px;
+  color: #ffd140;
+  margin-top: 268px;
+  text-shadow: 5px 5px 6px #00000029;
+}
+.foodfest-content .foodfest-text {
+  width: 980px;
+  min-height: 133px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.foodfest-content .foodfest-text p {
+  font-family: Gill;
+  font-style: italic;
+  font-size: 16px;
+  opacity: 0.5;
+  width: 490px;
+  margin-top: 50.5px;
+  margin-bottom: 73px;
+  letter-spacing: 1.2px;
+}
+.foodfest-content .foodfest-text .text2 {
+  width: 451px;
+  font-size: 16px;
+  letter-spacing: 0.9px;
+}
+
 footer {
   width: 100%;
   min-height: 455px;
@@ -308,4 +488,12 @@ footer .footer-content .socials .insta {
 }
 footer .footer-content .socials .twitter {
   background-image: url(../assets/social-media/twitter.png);
+}
+footer .footer-content .copywright {
+  font-family: Gill;
+  font-size: 12px;
+  color: white;
+  opacity: 0.5;
+  text-align: center;
+  margin-top: 46px;
 }

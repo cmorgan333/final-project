@@ -1,0 +1,37 @@
+.black {
+  width: 980px;
+  height: 75px;
+  border-bottom: $black solid 2px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 15px;
+
+  .black-logo {
+    width: 92px;
+    height: 42px;
+    background-image: url(../assets/logo/logo-black.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .links {
+    width: 389px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 23px;
+
+    a {
+      font-family: $font-one;
+      font-size: 15px;
+      text-decoration: none;
+      color: $black;
+    }
+    span {
+      color: #ee4367;
+    }
+  }
+}
