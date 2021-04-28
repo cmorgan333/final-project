@@ -1,9 +1,9 @@
-.deejay-content {
-  .deejay-image {
+.speech-content {
+  .speech-image {
     @include center(980px, 50.5px auto 0 auto);
     height: 400.5px;
-    background-image: linear-gradient(to right, $overlaypink, $overlaypink),
-      url(../assets/gallery/2.jpeg);
+    background-image: linear-gradient(to right, $overlaygreen, $overlaygreen),
+      url(../assets/gallery/3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     h1 {
       font-family: $font-one;
       font-size: 300px;
-      color: $pink;
+      color: $green;
       margin-top: 120px;
       text-shadow: 5px 5px 6px #00000029;
     }
@@ -20,12 +20,12 @@
     h2 {
       font-family: $font-one;
       font-size: 140px;
-      color: $pink;
+      color: $green;
       margin-top: 268px;
       text-shadow: 5px 5px 6px #00000029;
     }
   }
-  .deejay-text {
+  .speech-text {
     width: 980px;
     min-height: 133px;
     display: flex;
