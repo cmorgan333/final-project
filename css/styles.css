@@ -21,6 +21,8 @@ p {
 
 @font-face {
   font-family: "Gill";
+  font-style: italic;
+  font-weight: normal;
   src: url(fonts/GillSans.ttf);
 }
 @font-face {
@@ -154,6 +156,7 @@ p {
 }
 .hero-content h1 {
   font-family: PTRegular;
+  font-weight: normal;
   letter-spacing: 0.52;
   font-size: 40px;
   color: white;
@@ -460,14 +463,17 @@ p {
   background-repeat: no-repeat;
   display: flex;
 }
-.foodfest-content .foodfest-image h1 {
+.foodfest-content .foodfest-image .foodfest-image-text {
+  display: flex;
+}
+.foodfest-content .foodfest-image .foodfest-image-text h1 {
   font-family: Gill;
   font-size: 300px;
   color: #ffd140;
   margin-top: 120px;
   text-shadow: 5px 5px 6px #00000029;
 }
-.foodfest-content .foodfest-image h2 {
+.foodfest-content .foodfest-image .foodfest-image-text h2 {
   font-family: Gill;
   font-size: 140px;
   color: #ffd140;
@@ -475,28 +481,57 @@ p {
   text-shadow: 5px 5px 6px #00000029;
 }
 .foodfest-content .foodfest-text {
-  width: 980px;
+  max-width: 980px;
   min-height: 133px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  margin-top: 20px;
 }
 .foodfest-content .foodfest-text p {
   font-family: Gill;
   font-style: italic;
   font-size: 16px;
   opacity: 0.5;
-  width: 490px;
+  max-width: 490px;
+  min-height: 200px;
   margin-top: 50.5px;
   margin-bottom: 73px;
   letter-spacing: 1.2px;
 }
 .foodfest-content .foodfest-text .text2 {
-  width: 451px;
+  max-width: 451px;
   font-size: 16px;
   letter-spacing: 0.9px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .foodfest-content .foodfest-image .foodfest-image-text {
+    margin: 0 auto;
+  }
+  .foodfest-content .foodfest-image .foodfest-image-text h1 {
+    font-size: 240px;
+    margin-top: 177px;
+  }
+  .foodfest-content .foodfest-image .foodfest-image-text h2 {
+    font-size: 100px;
+    line-height: 85px;
+    max-width: 300px;
+    margin-top: 237px;
+  }
+  .foodfest-content .foodfest-text {
+    display: block;
+    max-width: 440px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .foodfest-content .foodfest-text p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
 .deejay-content .deejay-image {
   max-width: 980px;
   margin: 50.5px auto 0 auto;
@@ -507,14 +542,17 @@ p {
   background-repeat: no-repeat;
   display: flex;
 }
-.deejay-content .deejay-image h1 {
+.deejay-content .deejay-image .deejay-image-text {
+  display: flex;
+}
+.deejay-content .deejay-image .deejay-image-text h1 {
   font-family: Gill;
   font-size: 300px;
   color: #ee4367;
   margin-top: 120px;
   text-shadow: 5px 5px 6px #00000029;
 }
-.deejay-content .deejay-image h2 {
+.deejay-content .deejay-image .deejay-image-text h2 {
   font-family: Gill;
   font-size: 140px;
   color: #ee4367;
@@ -522,7 +560,7 @@ p {
   text-shadow: 5px 5px 6px #00000029;
 }
 .deejay-content .deejay-text {
-  width: 980px;
+  max-width: 980px;
   min-height: 133px;
   display: flex;
   justify-content: space-between;
@@ -533,17 +571,45 @@ p {
   font-style: italic;
   font-size: 16px;
   opacity: 0.5;
-  width: 490px;
+  max-width: 490px;
+  min-height: 200px;
   margin-top: 50.5px;
   margin-bottom: 73px;
   letter-spacing: 1.2px;
 }
 .deejay-content .deejay-text .text2 {
-  width: 451px;
+  max-width: 451px;
   font-size: 16px;
   letter-spacing: 0.9px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .deejay-content .deejay-image .deejay-image-text {
+    margin: 0 auto;
+  }
+  .deejay-content .deejay-image .deejay-image-text h1 {
+    font-size: 240px;
+    margin-top: 177px;
+  }
+  .deejay-content .deejay-image .deejay-image-text h2 {
+    font-size: 100px;
+    line-height: 85px;
+    max-width: 300px;
+    margin-top: 321px;
+  }
+  .deejay-content .deejay-text {
+    display: block;
+    max-width: 440px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .deejay-content .deejay-text p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
 .speech-content .speech-image {
   max-width: 980px;
   margin: 50.5px auto 0 auto;
