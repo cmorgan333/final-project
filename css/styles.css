@@ -532,7 +532,7 @@ p {
     margin-top: 20px;
   }
 }
-.deejay-content .deejay-image {
+.dejay-content .dejay-image {
   max-width: 980px;
   margin: 50.5px auto 0 auto;
   height: 400.5px;
@@ -542,31 +542,31 @@ p {
   background-repeat: no-repeat;
   display: flex;
 }
-.deejay-content .deejay-image .deejay-image-text {
+.dejay-content .dejay-image .deejay-image-text {
   display: flex;
 }
-.deejay-content .deejay-image .deejay-image-text h1 {
+.dejay-content .dejay-image .deejay-image-text h1 {
   font-family: Gill;
   font-size: 300px;
   color: #ee4367;
   margin-top: 120px;
   text-shadow: 5px 5px 6px #00000029;
 }
-.deejay-content .deejay-image .deejay-image-text h2 {
+.dejay-content .dejay-image .deejay-image-text h2 {
   font-family: Gill;
   font-size: 140px;
   color: #ee4367;
   margin-top: 268px;
   text-shadow: 5px 5px 6px #00000029;
 }
-.deejay-content .deejay-text {
+.dejay-content .deejay-text {
   max-width: 980px;
   min-height: 133px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
-.deejay-content .deejay-text p {
+.dejay-content .deejay-text p {
   font-family: Gill;
   font-style: italic;
   font-size: 16px;
@@ -577,7 +577,7 @@ p {
   margin-bottom: 73px;
   letter-spacing: 1.2px;
 }
-.deejay-content .deejay-text .text2 {
+.dejay-content .deejay-text .text2 {
   max-width: 451px;
   font-size: 16px;
   letter-spacing: 0.9px;
@@ -620,14 +620,17 @@ p {
   background-repeat: no-repeat;
   display: flex;
 }
-.speech-content .speech-image h1 {
+.speech-content .speech-image .speech-image-text {
+  display: flex;
+}
+.speech-content .speech-image .speech-image-text h1 {
   font-family: Gill;
   font-size: 300px;
   color: #08ad69;
   margin-top: 120px;
   text-shadow: 5px 5px 6px #00000029;
 }
-.speech-content .speech-image h2 {
+.speech-content .speech-image .speech-image-text h2 {
   font-family: Gill;
   font-size: 140px;
   color: #08ad69;
@@ -646,17 +649,45 @@ p {
   font-style: italic;
   font-size: 16px;
   opacity: 0.5;
-  width: 490px;
+  max-width: 490px;
+  min-height: 200px;
   margin-top: 50.5px;
   margin-bottom: 73px;
   letter-spacing: 1.2px;
 }
 .speech-content .speech-text .text2 {
-  width: 451px;
+  max-width: 451px;
   font-size: 16px;
   letter-spacing: 0.9px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .speech-content .speech-image .speech-image-text {
+    margin: 0 auto;
+  }
+  .speech-content .speech-image .speech-image-text h1 {
+    font-size: 240px;
+    margin-top: 177px;
+  }
+  .speech-content .speech-image .speech-image-text h2 {
+    font-size: 100px;
+    line-height: 85px;
+    max-width: 300px;
+    margin-top: 321px;
+  }
+  .speech-content .speech-text {
+    display: block;
+    max-width: 440px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .speech-content .speech-text p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
 .openfood-content .openfood-image {
   max-width: 980px;
   margin: 50.5px auto 0 auto;
@@ -667,7 +698,10 @@ p {
   background-repeat: no-repeat;
   display: flex;
 }
-.openfood-content .openfood-image h1 {
+.openfood-content .openfood-image .openfood-image-text {
+  display: flex;
+}
+.openfood-content .openfood-image .openfood-image-text h1 {
   font-family: Gill;
   font-size: 300px;
   color: #540d6e;
@@ -675,7 +709,7 @@ p {
   margin-left: 2px;
   text-shadow: 5px 5px 6px #00000029;
 }
-.openfood-content .openfood-image h2 {
+.openfood-content .openfood-image .openfood-image-text h2 {
   font-family: Gill;
   font-size: 115px;
   color: #540d6e;
@@ -694,17 +728,45 @@ p {
   font-style: italic;
   font-size: 16px;
   opacity: 0.5;
-  width: 490px;
+  max-width: 490px;
+  min-height: 200px;
   margin-top: 50.5px;
   margin-bottom: 73px;
   letter-spacing: 1.2px;
 }
 .openfood-content .openfood-text .text2 {
-  width: 451px;
+  max-width: 451px;
   font-size: 16px;
   letter-spacing: 0.9px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .openfood-content .openfood-image .openfood-image-text {
+    margin: 0 auto;
+  }
+  .openfood-content .openfood-image .openfood-image-text h1 {
+    font-size: 240px;
+    margin-top: 177px;
+  }
+  .openfood-content .openfood-image .openfood-image-text h2 {
+    font-size: 90px;
+    line-height: 85px;
+    max-width: 300px;
+    margin-top: 240px;
+  }
+  .openfood-content .openfood-text {
+    display: block;
+    max-width: 440px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .openfood-content .openfood-text p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
 .international-content .international-image {
   max-width: 980px;
   margin: 50.5px auto 0 auto;
@@ -715,7 +777,10 @@ p {
   background-repeat: no-repeat;
   display: flex;
 }
-.international-content .international-image h1 {
+.international-content .international-image .international-image-text {
+  display: flex;
+}
+.international-content .international-image .international-image-text h1 {
   font-family: Gill;
   font-size: 300px;
   color: #3bceab;
@@ -723,10 +788,11 @@ p {
   margin-left: 2px;
   text-shadow: 5px 5px 6px #00000029;
 }
-.international-content .international-image h2 {
+.international-content .international-image .international-image-text h2 {
   font-family: Gill;
   font-size: 115px;
   color: #3bceab;
+  min-height: 60px;
   margin-top: 292px;
   text-shadow: 5px 5px 6px #00000029;
 }
@@ -742,17 +808,44 @@ p {
   font-style: italic;
   font-size: 16px;
   opacity: 0.5;
-  width: 490px;
+  max-width: 490px;
+  min-height: 200px;
   margin-top: 50.5px;
   margin-bottom: 73px;
   letter-spacing: 1.2px;
 }
 .international-content .international-text .text2 {
-  width: 451px;
+  max-width: 451px;
   font-size: 16px;
   letter-spacing: 0.9px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .international-content .international-image .international-image-text {
+    margin: 0 auto;
+  }
+  .international-content .international-image .international-image-text h1 {
+    font-size: 190px;
+    margin-top: 223px;
+  }
+  .international-content .international-image .international-image-text h2 {
+    font-size: 55px;
+    line-height: 85px;
+    margin-top: 338px;
+  }
+  .international-content .international-text {
+    display: block;
+    max-width: 440px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .international-content .international-text p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
 .blog-landing-content {
   max-width: 980px;
   min-height: 200px;
