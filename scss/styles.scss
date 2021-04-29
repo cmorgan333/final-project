@@ -15,13 +15,16 @@
 @import "home/events-content.scss";
 // =========ABOUT CONTENT=========//
 @import "about/about-content.scss";
-// ===========GALLERY============//
+// ===========GALLERY PAGES============//
 @import "gallery/gallery-content.scss";
 @import "gallery/foodfest.scss";
 @import "gallery/deejay.scss";
 @import "gallery/speech.scss";
 @import "gallery/openfood.scss";
 @import "gallery/international.scss";
+// ===========BLOG PAGES============//
+@import "blog/blog-landing.scss";
+@import "blog/blog-one.scss";
 
 // ===========FOOTER==========//
 @import "footer.scss";

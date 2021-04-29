@@ -6,12 +6,15 @@
   margin-bottom: 60px;
 
   h1 {
-    height: 35px;
-    width: 229px;
-    border-bottom: $black solid 2px;
-    font-family: $font-one;
-    font-size: 25px;
-    color: $black;
+    @include header-one(229px, 65.5px auto 29.5 0);
+    // ===made into mixin=====//
+    // margin-bottom: 29.5px;
+    // height: 35px;
+    // width: 229px;
+    // border-bottom: $black solid 2px;
+    // font-family: $font-one;
+    // font-size: 25px;
+    // color: $black;
   }
 
   .gallery-wrapper {

@@ -1,4 +1,15 @@
 @mixin center($elementWidth, $elementMargin: 0 auto) {
   max-width: $elementWidth;
   margin: $elementMargin;
-} ;
+}
+
+@mixin header-one($elementWidth, $elementMargin: 0 auto) {
+  max-width: $elementWidth;
+  width: $elementWidth;
+  margin: $elementMargin;
+  font-family: $font-one;
+  font-size: 25px;
+  color: $black;
+  height: 40px;
+  border-bottom: $black solid 2px;
+}

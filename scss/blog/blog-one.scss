@@ -1,0 +1,60 @@
+.blogone-content {
+  max-width: 980px;
+  min-height: 200px;
+  margin: 0 auto;
+
+  .blog-hero {
+    width: 980px;
+    height: 300px;
+    background-image: linear-gradient(to right, $overlaypink, $overlaypink),
+      url(../assets/images/blog.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 55.5px;
+    margin-bottom: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .date-image {
+      width: 155px;
+      height: 155px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .jun06 {
+      background-image: url(../assets/dates/june06.png);
+    }
+  }
+
+  .blog-text {
+    max-width: 856px;
+    min-height: 200px;
+    margin-bottom: 151px;
+
+    h1 {
+      font-family: $font-one;
+      font-size: 20px;
+      color: $pink;
+      margin-top: 57px;
+    }
+
+    // h2 {
+    //   font-family: $font-one;
+    //   font-size: 20px;
+    //   color: $pink;
+    // }
+
+    p {
+      opacity: 0.5;
+      margin-top: 30px;
+      font-family: $font-one;
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: 1.75px;
+    }
+  }
+}

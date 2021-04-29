@@ -11,13 +11,17 @@
   display: flex;
 
   h1 {
-    width: 229px;
-    height: 40px;
-    font-family: $font-one;
-    font-size: 25px;
-    border-bottom: $black solid 2px;
-    margin-top: 354px;
+    @include header-one(229px, 354px auto 0 0);
   }
+
+  // h1 {
+  //   width: 229px;
+  //   height: 40px;
+  //   font-family: $font-one;
+  //   font-size: 25px;
+  //   border-bottom: $black solid 2px;
+  //   margin-top: 354px;
+  // }
 }
 
 .about-content {
