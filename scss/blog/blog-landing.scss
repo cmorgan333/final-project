@@ -65,7 +65,44 @@
             background-size: cover;
             background-repeat: no-repeat;
           }
+
+          .blog-text {
+            font-family: $font-one;
+            font-size: 15px;
+            color: $black;
+            margin-top: 20px;
+          }
+          .two {
+            font-family: $font-one;
+            font-size: 13px;
+            color: $pink;
+          }
         }
+      }
+    }
+  }
+}
+// ========RESPONSIVENESS=====//
+@media only screen and (max-width: 950px) {
+  .blog-landing-content {
+    h1 {
+      margin: 0 auto;
+      margin-top: 25px;
+    }
+    .blog-dates {
+      width: 500px;
+
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 0 auto;
+      margin-top: 40px;
+      margin-bottom: 50px;
+
+      .blog-block {
+        display: block;
+        margin: 0 auto;
+
+        margin: 0 auto;
       }
     }
   }

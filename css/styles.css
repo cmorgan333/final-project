@@ -913,7 +913,37 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.blog-landing-content .blog-dates .blog-block .blog .blog-container .blog-text {
+  font-family: Gill;
+  font-size: 15px;
+  color: black;
+  margin-top: 20px;
+}
+.blog-landing-content .blog-dates .blog-block .blog .blog-container .two {
+  font-family: Gill;
+  font-size: 13px;
+  color: #ee4367;
+}
 
+@media only screen and (max-width: 950px) {
+  .blog-landing-content h1 {
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .blog-landing-content .blog-dates {
+    width: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .blog-landing-content .blog-dates .blog-block {
+    display: block;
+    margin: 0 auto;
+    margin: 0 auto;
+  }
+}
 .blogone-content {
   max-width: 980px;
   min-height: 200px;
