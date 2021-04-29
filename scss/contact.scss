@@ -28,12 +28,13 @@
         display: flex;
         padding-left: 10px;
       }
+
       #message {
         width: 529px;
         height: 199px;
+        display: flex;
 
         ::placeholder {
-          padding-top: -100px;
         }
       }
     }

@@ -770,9 +770,7 @@ p {
 .contact-content .contact-container .contact-form #message {
   width: 529px;
   height: 199px;
-}
-.contact-content .contact-container .contact-form #message ::placeholder {
-  padding-top: -100px;
+  display: flex;
 }
 .contact-content .contact-container .map {
   width: 400px;
