@@ -1,6 +1,6 @@
 .black {
-  width: 980px;
-  height: 75px;
+  max-width: 980px;
+  min-height: 75px;
   border-bottom: $black solid 2px;
   display: flex;
   justify-content: space-between;
@@ -32,6 +32,22 @@
     }
     span {
       color: #ee4367;
+    }
+  }
+}
+// =======RESPONSIVENESS==========//
+@media only screen and (max-width: 1075px) {
+  .black {
+    display: block;
+    min-height: 100px;
+
+    .black-logo {
+      margin: 0 auto;
+    }
+    .black-links {
+      margin: 0 auto;
+      padding-left: 10px;
+      padding-right: 10px;
     }
   }
 }

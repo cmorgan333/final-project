@@ -1,6 +1,6 @@
 .gallery-content {
   max-width: 980px;
-  height: 582px;
+  min-height: 582px;
   margin: 0 auto;
   margin-top: 86px;
   margin-bottom: 60px;
@@ -19,10 +19,10 @@
 
   .gallery-wrapper {
     max-width: 980px;
-    height: 513px;
+    min-height: 513px;
 
     .row-one {
-      height: 187px;
+      min-height: 187px;
       display: flex;
       justify-content: space-between;
 
@@ -63,7 +63,7 @@
     }
 
     .row-two {
-      height: 306px;
+      min-height: 306px;
       margin-top: 20px;
       display: flex;
       justify-content: space-between;
@@ -86,6 +86,52 @@
         height: 306px;
         background-image: linear-gradient(to right, $overlayaqua, $overlayaqua),
           url(../assets/gallery/5.png);
+      }
+    }
+  }
+}
+// =======RESPONSIVENESS========//
+@media only screen and (max-width: 1000px) {
+  .gallery-content {
+    h1 {
+      margin-left: 20px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    .gallery-wrapper {
+      max-width: 500px;
+      padding-left: 15px;
+      padding-right: 15px;
+      flex-wrap: wrap;
+      margin: 0 auto;
+
+      .row-one {
+        margin: 0 auto;
+        flex-wrap: wrap;
+
+        .one {
+          margin-bottom: 20px;
+        }
+        .two {
+          width: 490px;
+          margin-bottom: 20px;
+        }
+        .three {
+          width: 490px;
+        }
+      }
+      .row-two {
+        flex-wrap: wrap;
+        .four {
+          width: 490px;
+          height: 187px;
+          margin-bottom: 20px;
+        }
+        .five {
+          width: 490px;
+          height: 187px;
+          margin-bottom: 20px;
+        }
       }
     }
   }

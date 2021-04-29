@@ -21,12 +21,7 @@ p {
 
 @font-face {
   font-family: "Gill";
-  font-style: "italic";
   src: url(fonts/GillSans.ttf);
-}
-@font-face {
-  font-family: "GillSans Italic";
-  src: url(fonts/GillSans.ttc);
 }
 @font-face {
   font-family: "PTBold";
@@ -102,8 +97,8 @@ p {
   }
 }
 .black {
-  width: 980px;
-  height: 75px;
+  max-width: 980px;
+  min-height: 75px;
   border-bottom: black solid 2px;
   display: flex;
   justify-content: space-between;
@@ -136,6 +131,20 @@ p {
   color: #ee4367;
 }
 
+@media only screen and (max-width: 1075px) {
+  .black {
+    display: block;
+    min-height: 100px;
+  }
+  .black .black-logo {
+    margin: 0 auto;
+  }
+  .black .black-links {
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 .hero-content {
   max-width: 420px;
   height: 220px;
@@ -305,7 +314,7 @@ p {
 .about-image h1 {
   max-width: 229px;
   width: 229px;
-  margin: 354px auto 0 0;
+  margin: 360px auto 0 0;
   font-family: Gill;
   font-size: 25px;
   color: black;
@@ -323,11 +332,18 @@ p {
   margin: 0 auto;
   margin-top: 36.5px;
   margin-bottom: 95px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
+@media only screen and (max-width: 1075px) {
+  .about-image h1 {
+    margin-left: 15px;
+  }
+}
 .gallery-content {
   max-width: 980px;
-  height: 582px;
+  min-height: 582px;
   margin: 0 auto;
   margin-top: 86px;
   margin-bottom: 60px;
@@ -344,10 +360,10 @@ p {
 }
 .gallery-content .gallery-wrapper {
   max-width: 980px;
-  height: 513px;
+  min-height: 513px;
 }
 .gallery-content .gallery-wrapper .row-one {
-  height: 187px;
+  min-height: 187px;
   display: flex;
   justify-content: space-between;
 }
@@ -372,7 +388,7 @@ p {
   background-image: linear-gradient(to right, rgba(8, 173, 105, 0.7), rgba(8, 173, 105, 0.7)), url(../assets/gallery/3.jpg);
 }
 .gallery-content .gallery-wrapper .row-two {
-  height: 306px;
+  min-height: 306px;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -393,6 +409,47 @@ p {
   background-image: linear-gradient(to right, rgba(59, 206, 171, 0.7), rgba(59, 206, 171, 0.7)), url(../assets/gallery/5.png);
 }
 
+@media only screen and (max-width: 1000px) {
+  .gallery-content h1 {
+    margin-left: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .gallery-content .gallery-wrapper {
+    max-width: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .gallery-content .gallery-wrapper .row-one {
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .gallery-content .gallery-wrapper .row-one .one {
+    margin-bottom: 20px;
+  }
+  .gallery-content .gallery-wrapper .row-one .two {
+    width: 490px;
+    margin-bottom: 20px;
+  }
+  .gallery-content .gallery-wrapper .row-one .three {
+    width: 490px;
+  }
+  .gallery-content .gallery-wrapper .row-two {
+    flex-wrap: wrap;
+  }
+  .gallery-content .gallery-wrapper .row-two .four {
+    width: 490px;
+    height: 187px;
+    margin-bottom: 20px;
+  }
+  .gallery-content .gallery-wrapper .row-two .five {
+    width: 490px;
+    height: 187px;
+    margin-bottom: 20px;
+  }
+}
 .foodfest-content .foodfest-image {
   max-width: 980px;
   margin: 50.5px auto 0 auto;

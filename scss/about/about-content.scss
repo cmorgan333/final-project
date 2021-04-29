@@ -11,7 +11,7 @@
   display: flex;
 
   h1 {
-    @include header-one(229px, 354px auto 0 0);
+    @include header-one(229px, 360px auto 0 0);
   }
 
   // h1 {
@@ -34,4 +34,14 @@
   margin: 0 auto;
   margin-top: 36.5px;
   margin-bottom: 95px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+// ========RESPONSIVENESS=======//
+@media only screen and (max-width: 1075px) {
+  .about-image {
+    h1 {
+      margin-left: 15px;
+    }
+  }
 }
