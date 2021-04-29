@@ -33,3 +33,12 @@
     }
   }
 }
+// ======RESPONSIVENESS==========//
+@media only screen and (max-width: 1075px) {
+  .home-content {
+    .quote {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}

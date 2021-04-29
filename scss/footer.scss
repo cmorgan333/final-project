@@ -20,7 +20,7 @@ footer {
       margin: 0 auto;
     }
     .address {
-      width: 250px;
+      width: 275px;
       height: 75px;
       font-family: $font-one;
       font-size: 16px;
@@ -96,6 +96,26 @@ footer {
       opacity: 0.5;
       text-align: center;
       margin-top: 46px;
+    }
+  }
+}
+// =========RESPONSIVENESS=======//
+@media only screen and (max-width: 1075px) {
+  footer {
+    .footer-content {
+      .container {
+        width: 350px;
+        margin: 0 auto;
+        background-color: seagreen;
+        input {
+          width: 250px;
+        }
+        .subscribe {
+          width: 100px;
+          // padding-right: 15px;
+          text-align: center;
+        }
+      }
     }
   }
 }
