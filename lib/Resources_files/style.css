@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.hero {
+  max-width: 1280px;
+  height: 818px;
+  background-image: url(../assets/home/masks.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.hero nav {
+  max-width: 1280px;
+  height: 150px;
+  background-color: #010101;
+  display: flex;
+  justify-content: space-between;
+}
+.hero nav .logo-section {
+  width: 338px;
+  height: 92px;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.hero nav .logo-section .logo {
+  width: 297px;
+  height: 58px;
+  background-image: url(../assets/logo/audindy.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero nav .logo-section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+  color: white;
+  margin-left: 25px;
+}
+.hero nav .links {
+  width: 870px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero nav a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.home-content {
+  max-width: 1280px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.home-content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+.home-content .thumbnails {
+  max-width: 1052px;
+  height: 728px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.home-content .thumbnails .thumb-container {
+  height: 327px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.home-content .thumbnails .thumb-container .thumbnail {
+  width: 490px;
+  height: 327px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-content .thumbnails .thumb-container .theatre {
+  background-image: url(../assets/home/theatre.jpg);
+}
+.home-content .thumbnails .thumb-container .dance {
+  background-image: url(../assets/home/dance.jpg);
+}
+.home-content .thumbnails .thumb-container .sing {
+  background-image: url(../assets/home/singing.jpg);
+}
+.home-content .thumbnails .thumb-container .band {
+  background-image: url(../assets/home/band.jpg);
+}
+
+footer {
+  max-width: 1280px;
+  height: 206px;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .info {
+  width: 276px;
+  height: 160px;
+}
+footer .info .logo {
+  width: 205px;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 25px;
+  background-image: url(../assets/logo/audindy.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer .info .address {
+  width: 240px;
+  height: 100px;
+  margin-left: 25px;
+  margin-top: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 10px;
+}
+footer .socials {
+  width: 348px;
+  height: 47px;
+  margin-top: 70px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .socials .facebook {
+  width: 86px;
+  height: 86px;
+  background-image: url(../assets/icon/fbookicon.png);
+}
+footer .socials .twitter {
+  width: 86px;
+  height: 86px;
+  background-image: url(../assets/icon/twittericon.png);
+}
+footer .socials .insta {
+  width: 86px;
+  height: 86px;
+  background-image: url(../assets/icon/instagramicon.png);
+}
+
+nav {
+  max-width: 1280px;
+  height: 150px;
+  background-color: #010101;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+nav .logo-section {
+  width: 338px;
+  height: 92px;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+nav .logo-section .logo {
+  width: 297px;
+  height: 58px;
+  background-image: url(../assets/logo/audindy.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav .logo-section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+  color: white;
+  margin-left: 25px;
+}
+nav .links {
+  width: 870px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.about-content {
+  max-width: 1280px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.about-content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: black;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.about-content .profile {
+  max-width: 1000px;
+  min-height: 184px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-content .profile .headshot {
+  width: 277px;
+  height: 184px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about-content .profile .one {
+  background-image: url(../assets/about/profileone.jpg);
+}
+.about-content .profile .two {
+  background-image: url(../assets/about/profiletwo.jpg);
+}
+.about-content .profile .three {
+  background-image: url(../assets/about/profilethree.jpg);
+}
+.about-content .profile .profile-text {
+  width: 650px;
+  min-height: 184px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: rgba(112, 112, 112, 0.1);
+  padding-top: 15px;
+}
+.about-content .profile .profile-text h3 {
+  padding-left: 15px;
+}
+.about-content .profile .profile-text p {
+  width: 514px;
+  padding-left: 15px;
+}
+
+.resources-content {
+  max-width: 1280px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.resources-content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.resources-content .hero {
+  max-width: 1280px;
+  height: 907px;
+  background-image: url(../assets/resources/trustcircle.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.resources-content .textbox {
+  width: 1280px;
+  height: 468px;
+  background-color: rgba(5, 5, 5, 0.75);
+  margin: 0 auto;
+}
+.resources-content .smallbox {
+  max-width: 700px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.resources-content h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 50px;
+  margin: 0 auto;
+}
+.resources-content h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 50px;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.resources-content .membership {
+  max-width: 1280px;
+  height: 561px;
+  margin-top: 100px;
+}
+.resources-content .membership h1 {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+.resources-content .membership ul {
+  max-width: 1050px;
+  height: 350px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-left: 280px;
+}
+.resources-content .membership ul li {
+  margin-bottom: 50px;
+}
+.resources-content .clothes-collage {
+  max-width: 1280px;
+  height: 431px;
+  background-image: url(../assets/resources/clothescollage.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(5, 5, 5, 0.4);
+}
+.resources-content .whyjoin {
+  max-width: 1280px;
+  height: 561px;
+  margin-top: 100px;
+}
+.resources-content .whyjoin h1 {
+  font-size: 60px;
+}
+.resources-content .whyjoin p {
+  max-width: 1050px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-left: 175px;
+  margin-top: 50px;
+  line-height: 40px;
+}
+.resources-content .readytojoin {
+  max-width: 1280px;
+  height: 700px;
+  background-image: url(../assets/resources/standby);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+.resources-content .readytojoin .overlay {
+  max-width: 850px;
+  height: 700px;
+  background-color: rgba(5, 5, 5, 0.75);
+  margin: 0 auto;
+}
+.resources-content .readytojoin .overlay h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  color: white;
+  padding-top: 30px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <link rel="stylesheet" href="Resources_files/style.css">
+  </head>
+  <body>
+    <nav>
+      <div class="logo-section">
+        <div class="logo"></div>
+        <h1>Your Indy Audition Resource</h1>
+      </div>
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Resources</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+    <section class="resources-content">
+      <h1>COMMUNITY</h1>
+      <div class="hero">
+        <div class="textbox">
+          <h2>WE SUCCEED WHEN WE WORK TOGETHER!</h2>
+          <div class="smallbox">
+            <h3>JOIN OUR RESOURCE SHARE PROGRAM!</h3>
+          </div>
+        </div>
+      </div>
+      <!-- =======WHAT YOU GET SECTION===== -->
+
+      <div class="membership">
+        <h1>When you join Aud Indy you get:</h1>
+        <ul>
+          <li>Access to hundreds of costumes in our costume shop</li>
+          <li>Access to thousands of props</li>
+          <li>Discounted rates on stage makeup and prosthetics</li>
+          <li>Discounted rates on rehearsal and performance spaces</li>
+        </ul>
+      </div>
+
+      <!-- ========CLOTHES COLLAGE========= -->
+      <div class="clothes-collage"></div>
+      <!-- ==========WHY JOIN?============ -->
+      <div class="whyjoin">
+        <h1>Why join Aud Indy?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          tenetur aliquam adipisci facere voluptate quod aspernatur cumque. Odio
+          veniam ipsum, facere at, iste praesentium, nemo earum sint excepturi
+          deserunt natus.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          tenetur aliquam adipisci facere voluptate quod aspernatur cumque. Odio
+          veniam ipsum, facere at, iste praesentium, nemo earum sint excepturi
+          deserunt natus.
+        </p>
+      </div>
+      <!-- =========READY TO JOIN============== -->
+      <div class="readytojoin">
+        <div class="overlay">
+          <h1>Ready to Join?</h1>
+        </div>
+      </div>
+    </section>
+    <!-- ============FOOTER=================== -->
+    <footer>
+      <div class="info">
+        <div class="logo"></div>
+        <div class="address">
+          <p>1234 Mass Ave.</p>
+          <p>Indianapolis, IN 46402</p>
+          <p>Email: audindy@gmail.com</p>
+          <p>Phone: 317-555-555</p>
+        </div>
+      </div>
+      <div class="socials">
+        <div class="facebook"></div>
+        <div class="twitter"></div>
+        <div class="insta"></div>
+      </div>
+    </footer>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
