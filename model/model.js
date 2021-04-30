@@ -213,10 +213,288 @@ var contactContent = ` <section class="contact-content">
 </section>`;
 
 // =======GALLERY PAGES========//
+var foodfestContent = ` <section class="foodfest-content">
+<div class="foodfest-image">
+  <div class="foodfest-image-text">
+    <h1>1.</h1>
+    <h2>food festival</h2>
+  </div>
+</div>
+<div class="foodfest-text">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p class="text2">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</section>";
+`;
+var deejayContent = ` <section class="deejay-content">
+<div class="deejay-image">
+  <div class="deejay-image-text">
+    <h1>2.</h1>
+    <h2>dee-jay</h2>
+  </div>
+</div>
+<div class="deejay-text">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p class="text2">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</section>`;
+var speechContent = ` <section class="speech-content">
+<div class="speech-image">
+  <div class="speech-image-text">
+    <h1>3.</h1>
+    <h2>speech</h2>
+  </div>
+</div>
+<div class="speech-text">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p class="text2">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</section>`;
+var openfoodContent = ` <section class="openfood-content">
+<div class="openfood-image">
+  <div class="openfood-image-text">
+    <h1>4.</h1>
+    <h2>open foodfest</h2>
+  </div>
+</div>
+<div class="openfood-text">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p class="text2">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</section>`;
+var internationalContent = ` <section class="international-content">
+<div class="international-image">
+  <div class="international-image-text">
+    <h1>5.</h1>
+    <h2>international</h2>
+  </div>
+</div>
+<div class="international-text">
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p class="text2">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</section>`;
 
 // =======BLOG PAGES=========//
 
+var blogoneContent = `<section class="blogone-content">
+<div class="blog-hero">
+  <div class="date-image jun06"></div>
+</div>
+<div class="blog-text">
+  <h1>Header #1:</h1>
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+  <h1>Header #2:</h1>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</section>`;
+var blogtwoContent = `<section class="blogone-content">
+<div class="blog-hero">
+  <div class="date-image jul30"></div>
+</div>
+<div class="blog-text">
+  <h1>Header #1:</h1>
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+  <h1>Header #2:</h1>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</section>
+<!-- =======FOOTER========= -->
+<footer>
+<div class="footer-content">
+  <div class="logo"></div>
+  <div class="address">
+    <p>420 Smoke St. Los Angeles, CA 46318</p>
+    <p>(213)-467-2627</p>
+    <p>info@eventsy.com</p>
+  </div>
+  <div class="container">
+    <input
+      type="text"
+      placeholder="Enter your email to join newsletter…"
+    />
+    <button class="subscribe">SUBSCRIBE</button>
+  </div>
+  <div class="socials">
+    <div class="icon fbook"></div>
+    <div class="icon insta"></div>
+    <div class="icon twitter"></div>
+  </div>
+  <div class="copywright">
+    Copyright 2019 eventsy. All rights reserved
+  </div>
+</div>`;
+var blogthreeContent = `<section class="blogone-content">
+<div class="blog-hero">
+  <div class="date-image aug30"></div>
+</div>
+<div class="blog-text">
+  <h1>Header #1:</h1>
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+  <h1>Header #2:</h1>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</section>`;
+var blogfourContent = `<section class="blogone-content">
+<div class="blog-hero">
+  <div class="date-image nov23"></div>
+</div>
+<div class="blog-text">
+  <h1>Header #1:</h1>
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+  <h1>Header #2:</h1>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</section>`;
+var blogfiveContent = ` <section class="blogone-content">
+<div class="blog-hero">
+  <div class="date-image dec23"></div>
+</div>
+<div class="blog-text">
+  <h1>Header #1:</h1>
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </p>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+  <h1>Header #2:</h1>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </p>
+</div>
+</section>`;
+
 // =========EXPORT FUNTION======//
+
 export function getPageContent(pageId) {
   $("#app").html(eval(pageId));
 }

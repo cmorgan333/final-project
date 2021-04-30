@@ -6,7 +6,7 @@
   margin-bottom: 60px;
 
   h1 {
-    @include header-one(229px, 65.5px auto 29.5 0);
+    @include header-one(229px, 29.5px auto 29.5 0);
     // ===made into mixin=====//
     // margin-bottom: 29.5px;
     // height: 35px;

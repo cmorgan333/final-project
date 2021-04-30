@@ -41,24 +41,19 @@ p {
   font-family: "PTRegular";
   src: url(font/PTSerif-Regular.ttf);
 }
-.hero {
-  width: 100%;
-  height: 500px;
-  background-image: linear-gradient(to right, rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../assets/images/home-hero.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.hero nav {
+.home-white-nav {
   max-width: 980px;
   min-height: 75px;
   border-bottom: white solid 2px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  margin-bottom: 64px;
   padding-top: 15px;
+  position: relative;
+  z-index: 99;
 }
-.hero nav .logo {
+.home-white-nav .logo {
   width: 92px;
   height: 42px;
   background-image: url(../assets/logo/logo-white.png);
@@ -66,7 +61,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
 }
-.hero nav .links {
+.home-white-nav .links {
   width: 389px;
   height: 30px;
   display: flex;
@@ -74,14 +69,25 @@ p {
   align-items: center;
   padding-top: 23px;
 }
-.hero nav .links a {
+.home-white-nav .links a {
   font-family: Gill;
   font-size: 15px;
   text-decoration: none;
   color: white;
 }
-.hero nav .links span {
+.home-white-nav .links span {
   color: #ee4367;
+}
+
+.home-hero-image {
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to right, rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../assets/images/home-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
 }
 
 @media only screen and (max-width: 1075px) {
@@ -98,7 +104,7 @@ p {
     padding-right: 10px;
   }
 }
-.black {
+.black-nav {
   max-width: 980px;
   min-height: 75px;
   border-bottom: black solid 2px;
@@ -107,7 +113,7 @@ p {
   margin: 0 auto;
   padding-top: 15px;
 }
-.black .black-logo {
+.black-nav .black-logo {
   width: 92px;
   height: 42px;
   background-image: url(../assets/logo/logo-black.png);
@@ -115,7 +121,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
 }
-.black .links {
+.black-nav .black-links {
   width: 389px;
   height: 30px;
   display: flex;
@@ -123,13 +129,13 @@ p {
   align-items: center;
   padding-top: 23px;
 }
-.black .links a {
+.black-nav .black-links a {
   font-family: Gill;
   font-size: 15px;
   text-decoration: none;
   color: black;
 }
-.black .links span {
+.black-nav .black-links span {
   color: #ee4367;
 }
 
@@ -153,6 +159,8 @@ p {
   margin: 0 auto;
   margin-top: 64px;
   text-align: center;
+  position: relative;
+  top: 64px;
 }
 .hero-content h1 {
   font-family: PTRegular;
@@ -189,6 +197,7 @@ p {
   max-width: 789px;
   min-height: 200px;
   margin: 0 auto;
+  margin-top: 564px;
 }
 .home-content .quote {
   min-height: 300px;
@@ -317,7 +326,7 @@ p {
 .about-image h1 {
   max-width: 229px;
   width: 229px;
-  margin: 360px auto 0 0;
+  margin: 354px auto 0 0;
   font-family: Gill;
   font-size: 25px;
   color: black;
@@ -354,7 +363,7 @@ p {
 .gallery-content h1 {
   max-width: 229px;
   width: 229px;
-  margin: 65.5px auto 29.5 0;
+  margin: 29.5px auto 29.5 0;
   font-family: Gill;
   font-size: 25px;
   color: black;
