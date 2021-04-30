@@ -4,7 +4,7 @@
   margin: 0 auto;
 
   .blog-hero {
-    width: 980px;
+    max-width: 980px;
     height: 300px;
     background-image: linear-gradient(to right, $overlaypink, $overlaypink),
       url(../assets/images/blog.jpg);
@@ -55,6 +55,21 @@
       font-size: 20px;
       line-height: 23px;
       letter-spacing: 1.75px;
+    }
+  }
+}
+// =======RESPONSIVE=======//
+@media only screen and (max-width: 1000px) {
+  .blogone-content {
+    .blog-hero {
+      .date-image {
+        width: 90px;
+        height: 90px;
+      }
+    }
+    .blog-text {
+      padding-left: 20px;
+      padding-right: 20px;
     }
   }
 }

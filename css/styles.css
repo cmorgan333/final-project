@@ -950,7 +950,7 @@ p {
   margin: 0 auto;
 }
 .blogone-content .blog-hero {
-  width: 980px;
+  max-width: 980px;
   height: 300px;
   background-image: linear-gradient(to right, rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url(../assets/images/blog.jpg);
   background-position: center;
@@ -992,6 +992,16 @@ p {
   letter-spacing: 1.75px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .blogone-content .blog-hero .date-image {
+    width: 90px;
+    height: 90px;
+  }
+  .blogone-content .blog-text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 .jul30 {
   background-image: url(../assets/dates/jul30.png);
 }
@@ -1031,8 +1041,8 @@ p {
   justify-content: space-between;
 }
 .contact-content .contact-container .contact-form {
-  width: 529px;
-  height: 442px;
+  max-width: 529px;
+  min-height: 442px;
   margin-bottom: 21px;
 }
 .contact-content .contact-container .contact-form input {
@@ -1049,16 +1059,7 @@ p {
   height: 199px;
   display: flex;
 }
-.contact-content .contact-container .map {
-  width: 400px;
-  height: 442px;
-  background-color: slateblue;
-  background-image: url(../assets/images/map.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.contact-content .contact {
+.contact-content .contact-container .contact-form .contact {
   width: 167px;
   height: 60px;
   background-color: #ee4367;
@@ -1070,7 +1071,47 @@ p {
   align-items: center;
   margin-bottom: 90px;
 }
+.contact-content .contact-container .map {
+  width: 400px;
+  height: 442px;
+  background-image: url(../assets/images/map.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+@media only screen and (max-width: 1000px) {
+  .contact-content h1 {
+    margin-left: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .contact-content .contact-container {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .contact-content .contact-container .contact-form {
+    margin: 0 auto;
+  }
+  .contact-content .contact-container .contact-form input {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .contact-content .contact-container .contact-form #message {
+    width: 400px;
+  }
+  .contact-content .contact-container .contact-form .contact {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .contact-content .contact-container .map {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+}
 footer {
   width: 100%;
   min-height: 455px;
