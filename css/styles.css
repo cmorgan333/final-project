@@ -113,7 +113,7 @@ p {
   margin: 0 auto;
   padding-top: 15px;
 }
-.black-nav .black-logo {
+.black-nav .logo {
   width: 92px;
   height: 42px;
   background-image: url(../assets/logo/logo-black.png);
@@ -121,7 +121,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
 }
-.black-nav .black-links {
+.black-nav .links {
   width: 389px;
   height: 30px;
   display: flex;
@@ -129,13 +129,13 @@ p {
   align-items: center;
   padding-top: 23px;
 }
-.black-nav .black-links a {
+.black-nav .links a {
   font-family: Gill;
   font-size: 15px;
   text-decoration: none;
   color: black;
 }
-.black-nav .black-links span {
+.black-nav .links span {
   color: #ee4367;
 }
 

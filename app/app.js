@@ -15,23 +15,20 @@ function init() {
         .addClass(`${btnId}-hero-image`);
       currentHeroImage = btnId;
       // ======NAV COLOR===//
-      // $("nav").css("display", "white-nav");
-      // $("nav")
-      //   .removeClass(`${currentNav}-white-nav`)
-      //   .addClass(`${btnId}-black-nav`);
-      // currentNav = btnId;
+      // $("nav").css("display");
+      $("nav")
+        .removeClass(`${currentHeroImage}-white-nav`)
+        .addClass(`${btnId}-black-nav, black-logo, black-links`);
+      currentNav = btnId;
       // =====================//
     } else {
       $(".hero").removeClass(`${currentHeroImage}-hero-image`);
       $(".hero").css("display", "none");
       currentHeroImage = btnId;
       // =========NAV COLOR======//
-      // $("nav").removeClass(`${currentNav}-white-nav`);
-      // $("nav").addClass(`.black-nav`);
-
-      // currentNav = btnId;
-
-      // ======================//
+      $("nav")
+        .removeClass(`${currentNav}-white-nav`)
+        .addClass("black-nav", "black-logo", "black-links");
     }
 
     MODEL.getPageContent(contentID);
