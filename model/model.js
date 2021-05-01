@@ -91,14 +91,16 @@ var aboutContent = ` <div class="about-image">
 var galleryContent = ` <section class="gallery-content">
 <h1>GALLERY</h1>
 <div class="gallery-wrapper">
+  <!-- =========ROW ONE========= -->
   <div class="row-one">
-    <div class="image one"></div>
-    <div class="image two"></div>
-    <div class="image three"></div>
+    <a href="#" id="foodfest" class="image one"></a>
+    <a href="#" id="image-two" class="image two"></a>
+    <a href="#" id="image-three" class="image three"></a>
   </div>
+  <!-- =====ROW TWO============== -->
   <div class="row-two">
-    <div class="image four"></div>
-    <div class="image five"></div>
+    <a href="#" id="image-four" class="image four"></a>
+    <a href="#" id="image-five" class="image five"></a>
   </div>
 </div>
 </section>`;

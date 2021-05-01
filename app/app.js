@@ -31,6 +31,21 @@ function init() {
         .addClass("black-nav", "black-logo", "black-links");
     }
 
+    // Make images clickable
+    function init() {
+      $("gallery-content a").click(function (event) {
+        let btnId = this.id;
+        let contentID = btnId + "Content";
+
+        if (btnId == "gallery") {
+          $(".image")
+            .removeClass(`gallery-content`)
+            .addClass(`foodfest-content`);
+          $(".image").removeClass(`gallery-content`);
+        }
+      });
+    }
+
     MODEL.getPageContent(contentID);
   });
 }
