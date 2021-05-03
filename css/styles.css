@@ -541,7 +541,7 @@ p {
     margin-top: 20px;
   }
 }
-.dejay-content .dejay-image {
+.deejay-content .deejay-image {
   max-width: 980px;
   margin: 50.5px auto 0 auto;
   height: 400.5px;
@@ -551,31 +551,31 @@ p {
   background-repeat: no-repeat;
   display: flex;
 }
-.dejay-content .dejay-image .deejay-image-text {
+.deejay-content .deejay-image .deejay-image-text {
   display: flex;
 }
-.dejay-content .dejay-image .deejay-image-text h1 {
+.deejay-content .deejay-image .deejay-image-text h1 {
   font-family: Gill;
   font-size: 300px;
   color: #ee4367;
   margin-top: 120px;
   text-shadow: 5px 5px 6px #00000029;
 }
-.dejay-content .dejay-image .deejay-image-text h2 {
+.deejay-content .deejay-image .deejay-image-text h2 {
   font-family: Gill;
   font-size: 140px;
   color: #ee4367;
   margin-top: 268px;
   text-shadow: 5px 5px 6px #00000029;
 }
-.dejay-content .deejay-text {
+.deejay-content .deejay-text {
   max-width: 980px;
   min-height: 133px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
-.dejay-content .deejay-text p {
+.deejay-content .deejay-text p {
   font-family: Gill;
   font-style: italic;
   font-size: 16px;
@@ -586,7 +586,7 @@ p {
   margin-bottom: 73px;
   letter-spacing: 1.2px;
 }
-.dejay-content .deejay-text .text2 {
+.deejay-content .deejay-text .text2 {
   max-width: 451px;
   font-size: 16px;
   letter-spacing: 0.9px;

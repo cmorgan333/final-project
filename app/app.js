@@ -2,11 +2,13 @@ import * as MODEL from "../model/model.js";
 
 let currentHeroImage = "home";
 let currentNav = "home";
+let currentLanding = "gallery";
 
 function init() {
   $("nav a").click(function (event) {
     let btnId = this.id;
     let contentID = btnId + "Content";
+    console.log(btnId);
 
     if (btnId == "home") {
       $(".hero").css("display", "block");
